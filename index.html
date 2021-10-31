@@ -1,0 +1,134 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>        
+        <div class="content">
+        <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+        <div class="font">
+        <h2 class="text__title title">Font Awesome + transition</h2>
+        <div class="font__icons">
+        <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Marvel</li>
+        <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>DC</li>
+        <li><span class="fa-li"><i class="far fa-square"></i></span>Starwars</li>
+        </ul>
+        </div>
+        <p>Наведись на синий блок и узри магию <b>transition</b>.</p>
+        </div>
+        <div class="animation">
+        <h2 class="text__title title">Transform</h2>
+        <div class="animation__block">
+        <div class="block__element"></div>
+        <div class="block__element"></div>
+        <div class="block__element"></div>
+        </div>
+        <p><b>Transform & keyframes</b> в действии.</p>
+        </div>
+        <div class="background">
+        <h2 class="text__title title">CSS Background</h2>
+        <div class="background__image">
+        </div>
+        <p>Выставляем картинку через <b>CSS</b> свойство <b>background.</b></p>
+        </div>
+        <div class="text">
+        <h2 class="text__title title">Images ( HTML Picture )</h2>
+        <div class="text__image">
+        <picture>
+        <source srcset="./marvel.jpg" type="image/jpeg" media="(min-width:1330px)">
+        <source srcset="./dc.jpg" type="image/jpeg" media="(min-width:992px)">
+        <source srcset="./starwars.png" type="image/jpeg" media="(max-width:992px)">
+        <img src="./assets/images/1300x400.jpg" alt="">
+        </picture>
+        </div>
+        <p>Использование тега <b>picture</b> для отображения нужной картинки на нужном разрешении.</p>
+        <p>Открой эту страницу на <b>разных девайсах</b> и посмотри на результат.</p>
+        </div>
+        <div class="cards">
+        <h2 class="cards__title title">Universes (HTML object-fit )</h2>
+        <div class="cards__row">
+        <div class="cards__column">
+        <div class="cards__item">
+        <div class="cards__image">
+        <img src="./starwars.png" alt="">
+        </div>
+        <div class="cards__body">
+        <p>Здесь кроется картинка с разрешением <b>300*181</b></p>
+        </div>
+        </div>
+        </div>
+        <div class="cards__column">
+        <div class="cards__item">
+        <div class="cards__image">
+        <img src="./dc.jpg" alt="">
+        </div>
+        <div class="cards__body">   
+        <p>Здесь кроется картинка с разрешением <b>700*350</b></p>
+        </div>
+        </div>
+        </div>
+        <div class="cards__column">
+        <div class="cards__item">
+        <div class="cards__image">
+        <img src="./marvel.jpg" alt="">
+        </div>
+        <div class="cards__body">
+        <p>Здесь кроется картинка с разрешением <b>1920*1035</b></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="items">
+        <h2 class="items__title title">Universes in a row</h2>
+        <div class="items__item">
+        <div class="items__image">
+        <img src="./marvel.jpg" alt="">
+        </div>
+        <div class="items__body">
+        <div class="items__label">Marvel</div>
+        <div class="items__text">Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics,
+         and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961,
+         the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, 
+         Steve Ditko and many others. The Marvel brand, which had been used over the years,
+         was solidified as the company's primary brand.</div>
+        </div>
+        </div>
+        <div class="items__item">
+        <div class="items__image">
+        <img src="./dc.jpg" alt="">
+        </div>
+        <div class="items__body">
+        <div class="items__label">DC</div>
+        <div class="items__text">
+        DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner 
+        being published in 1937.The majority of its publications take place within the fictional DC Universe and feature
+        numerous culturally iconic heroic characters, 
+        such as Superman, Batman, and Wonder Woman.
+        </div>
+        </div>
+        </div>
+        <div class="items__item">
+        <div class="items__image">
+        <img src="./starwars.png" alt="">
+        </div>
+        <div class="items__body">
+        <div class="items__label">Star Wars</div>
+        <div class="items__text">Star Wars was released on May 25, 1977, and first subtitled Episode IV: 
+            A New Hope in the 1979 book The Art of Star Wars.Episode V: The Empire Strikes Back was released on May 21, 
+            1980, also achieving wide financial and critical success. The final film in the trilogy, 
+            Episode VI: Return of the Jedi was released on May 25, 1983.
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </body>
+    </html>
